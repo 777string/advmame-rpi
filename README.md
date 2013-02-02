@@ -9,29 +9,29 @@ This build was made and tested on [Raspbian](http://www.raspbian.org/).
 
 Building process:
 
-./configure CFLAGS="-O3 -march=armv6 -mfloat-abi=hard -mfpu=vfp"
-make
-make install
+./configure CFLAGS="-O3 -march=armv6 -mfloat-abi=hard -mfpu=vfp"  
+make  
+make install  
 
 ## Version
 
-\# advmame --version
-AdvanceMAME 1.2
+\# advmame --version  
+AdvanceMAME 1.2  
 Compiled Jan 27 2013 with gcc-4.7.2
 
-Drivers (in priority order):
-Video: fb sdl none
-Sound: alsa oss sdl none
-Keyboard: event raw sdl none
-Joystick: event raw sdl none
-Mouse: event raw sdl none
+Drivers (in priority order):  
+Video: fb sdl none  
+Sound: alsa oss sdl none  
+Keyboard: event raw sdl none  
+Joystick: event raw sdl none  
+Mouse: event raw sdl none  
 
-Directories:
-Data: /usr/local/share/advance
+Directories:  
+Data: /usr/local/share/advance  
 
-Configuration (in priority order):
-Host configuration file (R): /usr/local/etc/advmame.rc
-Command line (R)
-Home configuration file (RW): /root/.advance/advmame.rc
+Configuration (in priority order):  
+Host configuration file (R): /usr/local/etc/advmame.rc  
+Command line (R)  
+Home configuration file (RW): /root/.advance/advmame.rc  
 Data configuration file (R): /usr/local/share/advance/advmame.rc
 
